@@ -1,0 +1,22 @@
+{
+  "name": "deploy-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "react-scripts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^20.14.11",
+    "aws-sdk": "^2.1659.0",
+    "console": "^0.7.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "redis": "^4.6.15",
+    "typescript": "^5.5.3"
+  }
+}
