@@ -3,8 +3,8 @@ import {S3} from "aws-sdk";
 const app = express();
 
 const s3 = new S3({
-    accessKeyId : "AKIA3FLD2HUVXWZYT72I",
-    secretAccessKey : "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",
+    accessKeyId : "AKIA3FLD2HUV7VL2FLNO",
+    secretAccessKey : "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",
 })
 
 app.get("/*",async (req,res)=>{

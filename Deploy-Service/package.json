@@ -1,7 +1,7 @@
 {
   "name": "deploy-service",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "react-scripts build"
@@ -16,7 +16,12 @@
     "console": "^0.7.2",
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
-    "redis": "^4.6.15",
-    "typescript": "^5.5.3"
+    "react-scripts": "^5.0.1",
+    "redis": "^4.6.15"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^4.9.5"
   }
 }
