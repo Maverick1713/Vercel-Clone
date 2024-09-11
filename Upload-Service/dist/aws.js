@@ -9,8 +9,8 @@ exports.uploadFile = void 0;
 const aws_sdk_1 = require("aws-sdk");
 const fs_1 = __importDefault(require("fs"));
 const s3 = new aws_sdk_1.S3({
-  accessKeyId: "AKIA3FLD2HUV7VL2FLNO",
-  secretAccessKey: "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",
+  accessKeyId : "",
+    secretAccessKey : "",
 });
 const uploadFile = async (fileName, localFilePath) => {
   const fileContent = fs_1.default.readFileSync(localFilePath);
